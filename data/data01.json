@@ -5,7 +5,7 @@
     "bildefil": "",
     "bildetekst": "",
     "nivaa": 0,
-    "retsvar": []
+    "rettsvar": 0
   },
   {
     "navn": "resistans01serie3",
@@ -13,6 +13,6 @@
     "bildefil": "bilde_r01.png",
     "bildetekst": "Bilde 3 stk resistanser. Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=25 V, I=37 mA, R1=240 ohm, R2 = 300 ohm. Rund av verdien",
     "nivaa": 1,
-    "retsvar": 135
+    "rettsvar": 135
   }
 ]
