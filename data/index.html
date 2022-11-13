@@ -12,6 +12,12 @@
 
     </select>
 
+    <select id="vanskelighetsgrad">
+        <!-- Liste med oppgaver -->
+
+
+    </select>
+
     <div id="presentasjonoppgave">
 
 
@@ -21,8 +27,7 @@
         </button>
 
     </div>
-    <script> /* const oppgaver 
-    = JSON.parse(text);  Trenger muligens ikke parse, men ...*/
+    <script> /* const oppgaver = JSON.parse(text);  Trenger muligens ikke parse, men ...*/
         const oppgaver =
             [
                 {
@@ -68,62 +73,54 @@
     </script>
 
     <script>
-        const presentasjon = document.body.querySelector("#presentasjonoppgave")
-        const meny = document.body.querySelector("#oppgaver")
-        const knapp = document.body.querySelector("#besvart")
-        const svar = document.body.querySelector("#svaret")
+        const presentasjon = document.body.querySelector("#presentasjonoppgave");
+        const meny = document.body.querySelector("#oppgaver");
+        const knapp = document.body.querySelector("#besvart");
+        const svar = document.body.querySelector("#svaret");
+        const nivaafilterUI = document.body.querySelector("#vanskelighetsgrad");
 
 
-        for (const element of oppgaver) {
-            
-            let opt = document.createElement('option');
-            opt.value = users.id;
-            opt.textContent += user.name // or opt.innerHTML += user.name
-            sel.appendChild(opt);
+
+        for (const oppgave of oppgaver) {
+
+            let oppgavevalg = document.createElement('option');
+            oppgavevalg.value = oppgave.id;
+            oppgavevalg.innerHTML = oppgave.navn;
+            meny.appendChild(oppgavevalg);
 
         }
-/*
-        const fragment = document.createDocumentFragment();
-        const li = fragment
-            .appendChild(document.createElement('section'))
-            .appendChild(document.createElement('ul'))
-            .appendChild(document.createElement('li'));
-        li.textContent = 'hello world';
 
-        document.body.appendChild(fragment);
-*/
+
+        function populateNivaaFilter() {// skap innhold fill lage innhold
+            const nivaaer = new Set() // konstruktør
+
+            for (const oppgave of oppgaver) {
+
+
+                if (nivaaer.has(oppgave.nivaa) == false) {
+                    nivaaer.add(oppgave.nivaa)
+
+                    let nivaafilter = document.createElement('option');
+                    nivaafilter.value = oppgave.nivaa;
+                    nivaafilter.innerHTML = oppgave.nivaa;
+                    nivaafilterUI.appendChild(nivaafilter);
+                }
+
+
+
+            }
+
+        }
+
+        populateNivaaFilter();
+
 
     </script>
+
+
+
 
 </body>
 
 
 </html>
-
-
-<!--
- <label for="cars">Choose a car:</label>
-
-<select name="cars" id="cars">
-  <option value="volvo">Volvo</option>
-  <option value="saab">Saab</option>
-  <option value="mercedes">Mercedes</option>
-  <option value="audi">Audi</option>
-</select> 
-
-const p = document.createElement("p");
-document.body.appendChild(p);
-
-document.getElementById("demo").innerHTML = cars;
-
-        var sel = document.querySelector('.select-text');
-  users.forEach(user => {
-    let opt = document.createElement('option');
-    opt.value = users.id;
-    opt.textContent += user.name // or opt.innerHTML += user.name
-    sel.appendChild(opt);        
-
-
-https://stackoverflow.com/questions/56024232/use-the-foreach-function-to-add-option-elements-to-select-html-element
-
--->
