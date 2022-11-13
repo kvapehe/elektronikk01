@@ -1,29 +1,18 @@
-{
-  "navn": "",
-  "beskrivelse": "",
-  "bilde": "",
-  "nivaa": 0,
-  "retsvar": []
-},
-{
-    "navn": "3 Resisteanser",
-    "beskrivelse": "Finn den ukjente resistansverdien",
-    "bilde": "Bilde 3 stk resistanser med en ukjent",
+[
+  {
+    "navn": "",
+    "beskrivelse": "",
+    "bildefil": "",
+    "bildetekst": "",
+    "nivaa": 0,
+    "retsvar": []
+  },
+  {
+    "navn": "resistans01serie3",
+    "beskrivelse": "Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=25 V, I=37 mA, R1=240 ohm, R2 = 300 ohm. Rund av verdien",
+    "bildefil": "bilde_r01.png",
+    "bildetekst": "Bilde 3 stk resistanser. Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=25 V, I=37 mA, R1=240 ohm, R2 = 300 ohm. Rund av verdien",
     "nivaa": 1,
-    "retsvar": [0]
-},
-{
-    "navn": "3 Kondensatorer",
-    "beskrivelse": "Finn den ukjente kondensatorverdien",
-    "bilde": "Bilde 3 stk kondensatorer i parallell med en ukjent",
-    "nivaa": 1,
-    "retsvar": [0]
-},
-{
-    "navn": "3 spoler",
-    "beskrivelse": "Finn den ukjente induktansen",
-    "bilde": "Bilde 3 stk spoler i serie med en ukjent",
-    "nivaa": 1,
-    "retsvar": [0]
-}
-
+    "retsvar": 135
+  }
+]
