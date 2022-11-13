@@ -1,0 +1,20 @@
+{
+  "jsonstruktur": {    
+    "oppgavetype": [ 
+      {
+        "resistans_serie": "3 resistanser",
+        "beskrivelse": "Resistanser i serie. Bruker tre stk resistanser Finn En av resistansverdiene",
+
+        "lastName": "Doe"
+      },
+      {
+        "kondensator_parallell": "Anna",
+        "lastName": "Smith"
+      },
+      {
+        "spole_serie": "Peter",
+        "lastName": "Jones"
+      }
+    ]
+  }
+}
