@@ -1,3 +1,14 @@
+# Info om json-fil
+Tanken er at denne har tre valg pr dd.  
+Valgene er serieresistans, parallell-capaistans og serie-induktans  
+Dette fordi disse tre kretsene håndteres likt  
+For hver oppgave er det noen enkle spørsmål  
+og flere gyldige svar  
+
+Ved å velge vanskelighetsgrad kan en velge andre oppgaver som kan  
+være mer kompliserte.
+
+# JSON-struktur
 {
   "jsonstruktur": {
     "oppgavetype": [
@@ -35,7 +46,7 @@
         "rettsvar01": 135,
         "rettsvar02": 150,
         "rettsvar03": 120,
-        "rettsvar04": 0.135
+        "rettsvar04": 0.135,
       },
       {
         "kondensator_parallell": "3 Kondensatorer i parallell",
