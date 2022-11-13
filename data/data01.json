@@ -1,70 +1,29 @@
 {
-  "jsonstruktur": {
-    "oppgavetype": [
-      {
-        "generell": "Et navn",
-        "beskrivelse": "En beskrivelse",
-        "nivaa": [
-          1,
-          2,
-          3
-        ],
-        "spenning": 0,
-        "strom": 0,
-        "v1": 0,
-        "v2": 0,
-        "v3": 0,
-        "rettsvar01": 135,
-        "rettsvar02": 150,
-        "rettsvar03": 120,
-        "rettsvar04": 0.135
-      },
-      {
-        "resistans_serie": "3 resistanser",
-        "beskrivelse": "Resistanser i serie. Bruker tre stk resistanser Finn En av resistansverdiene",
-        "nivaa": [
-          1,
-          2,
-          3
-        ],
-        "spenning": 25,
-        "strom": 0.037,
-        "v1": 240,
-        "v2": 300,
-        "v3": 0,
-        "rettsvar01": 135,
-        "rettsvar02": 150,
-        "rettsvar03": 120,
-        "rettsvar04": 0.135
-      },
-      {
-        "kondensator_parallell": "3 Kondensatorer i parallell",
-        "beskrivelse": "Resistanser i serie. Bruker tre stk resistanser Finn En av resistansverdiene",
-        "nivaa": [
-          1,
-          2,
-          3
-        ],
-        "spenning": 25,
-        "strom": 0.037,
-        "v1": 22,
-        "v2": 10,
-        "v3": 0
-      },
-      {
-        "spole_serie": "Peter",
-        "beskrivelse": "Resistanser i serie. Bruker tre stk resistanser Finn En av resistansverdiene",
-        "nivaa": [
-          1,
-          2,
-          3
-        ],
-        "spenning": 25,
-        "strom": 0.037,
-        "v1": 22,
-        "v2": 10,
-        "v3": 0
-      }
-    ]
-  }
+  "navn": "",
+  "beskrivelse": "",
+  "bilde": "",
+  "nivaa": 0,
+  "retsvar": []
+},
+{
+    "navn": "3 Resisteanser",
+    "beskrivelse": "Finn den ukjente resistansverdien",
+    "bilde": "Bilde 3 stk resistanser med en ukjent",
+    "nivaa": 1,
+    "retsvar": [0]
+},
+{
+    "navn": "3 Kondensatorer",
+    "beskrivelse": "Finn den ukjente kondensatorverdien",
+    "bilde": "Bilde 3 stk kondensatorer i parallell med en ukjent",
+    "nivaa": 1,
+    "retsvar": [0]
+},
+{
+    "navn": "3 spoler",
+    "beskrivelse": "Finn den ukjente induktansen",
+    "bilde": "Bilde 3 stk spoler i serie med en ukjent",
+    "nivaa": 1,
+    "retsvar": [0]
 }
+
