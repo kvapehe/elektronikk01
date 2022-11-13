@@ -1,0 +1,129 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <h1>Presentewre oppgavene</h1>
+    <select id="oppgaver">
+        <!-- Liste med oppgaver -->
+
+
+    </select>
+
+    <div id="presentasjonoppgave">
+
+
+        <input id="svaret">
+        <button id="besvart">Her er mitt svar
+
+        </button>
+
+    </div>
+    <script> /* const oppgaver 
+    = JSON.parse(text);  Trenger muligens ikke parse, men ...*/
+        const oppgaver =
+            [
+                {
+                    "navn": "",
+                    "id": "",
+                    "beskrivelse": "",
+                    "bildefil": "",
+                    "bildetekst": "",
+                    "nivaa": 0,
+                    "rettsvar": 0
+                },
+                {
+                    "navn": "Oppgave 1 Resistans",
+                    "id": "resistans01serie3",
+                    "beskrivelse": "Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=25 V, I=37 mA, R1=240 ohm, R2 = 300 ohm. Rund av verdien",
+                    "bildefil": "bilde_r01.png",
+                    "bildetekst": "Bilde 3 stk resistanser. Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=25 V, I=37 mA, R1=240 ohm, R2 = 300 ohm. Rund av verdien",
+                    "nivaa": 1,
+                    "rettsvar": 135
+                },
+                {
+                    "navn": "Oppgave 2 Resistans",
+                    "id": "resistans02serie",
+                    "beskrivelse": "Resistansoppgsve med tre stk R1, R2 og R3 i serie Finn den ukjente resistansen Når U=12.5 V, I=78 mA, R1=140 ohm, R2 = 500 ohm. Rund av verdien",
+                    "bildefil": "bilde_r01.png",
+                    "bildetekst": "Bilde 3 stk resistanser. ...",
+                    "nivaa": 1,
+                    "rettsvar": 80
+                },
+                {
+                    "navn": "Oppgave 1 kondensator",
+                    "id": "kondensator01parallell",
+                    "beskrivelse": "Kondensatoroppgave med tre stk C1, C2 og C3 i serie Finn den ukjente kapasitansen Når U=12.5 V, I=50 mA, C1=10uF ohm, C2 = 22 uF. Rund av verdien",
+                    "bildefil": "bilde_r01.png",
+                    "bildetekst": "Bilde 3 kondensatorer i parallell",
+                    "nivaa": 1,
+                    "rettsvar": 5
+                }
+
+            ]
+
+
+    </script>
+
+    <script>
+        const presentasjon = document.body.querySelector("#presentasjonoppgave")
+        const meny = document.body.querySelector("#oppgaver")
+        const knapp = document.body.querySelector("#besvart")
+        const svar = document.body.querySelector("#svaret")
+
+
+        for (const element of oppgaver) {
+            
+            let opt = document.createElement('option');
+            opt.value = users.id;
+            opt.textContent += user.name // or opt.innerHTML += user.name
+            sel.appendChild(opt);
+
+        }
+/*
+        const fragment = document.createDocumentFragment();
+        const li = fragment
+            .appendChild(document.createElement('section'))
+            .appendChild(document.createElement('ul'))
+            .appendChild(document.createElement('li'));
+        li.textContent = 'hello world';
+
+        document.body.appendChild(fragment);
+*/
+
+    </script>
+
+</body>
+
+
+</html>
+
+
+<!--
+ <label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select> 
+
+const p = document.createElement("p");
+document.body.appendChild(p);
+
+document.getElementById("demo").innerHTML = cars;
+
+        var sel = document.querySelector('.select-text');
+  users.forEach(user => {
+    let opt = document.createElement('option');
+    opt.value = users.id;
+    opt.textContent += user.name // or opt.innerHTML += user.name
+    sel.appendChild(opt);        
+
+
+https://stackoverflow.com/questions/56024232/use-the-foreach-function-to-add-option-elements-to-select-html-element
+
+-->
