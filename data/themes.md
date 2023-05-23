@@ -37,7 +37,7 @@ https://github.com/pages-themes/time-machine
 [https://pages-themes.github.io/leap-day](https://pages-themes.github.io/leap-day)  
 [https://pages-themes.github.io/merlot](https://pages-themes.github.io/merlot)  
 [https://pages-themes.github.io/midnight](https://pages-themes.github.io/midnight)  
-[https://pages-themes.github.io/minima](https://pages-themes.github.io/minima)  
+[https://jekyll.github.io/minima](https://jekyll.github.io/minima)  
 [https://pages-themes.github.io/minimal](https://pages-themes.github.io/minimal)  
 [https://pages-themes.github.io/modernist](https://pages-themes.github.io/modernist)  
 [https://pages-themes.github.io/slate](https://pages-themes.github.io/slate)  
