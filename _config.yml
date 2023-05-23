@@ -1,6 +1,7 @@
 # ./_config.yml
-theme: jekyll-theme-architect
+theme: jekyll-theme-leap-day
 title: Elektronikk og json
 description: Dette er siden som viser json og elektronikk
 # architect
 # theme: jekyll-theme-minimal
+# theme: jekyll-theme-architect
