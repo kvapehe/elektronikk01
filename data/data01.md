@@ -9,6 +9,7 @@ Ved å velge vanskelighetsgrad kan en velge andre oppgaver som kan
 være mer kompliserte.
 
 # JSON-struktur
+<pre>
 ```json
 {
   "jsonstruktur": {
@@ -81,3 +82,4 @@ være mer kompliserte.
   }
 }
 '''
+</pre>
