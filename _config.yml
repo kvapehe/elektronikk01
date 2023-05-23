@@ -1,5 +1,5 @@
 # ./_config.yml
-theme: architect
+theme: jekyll-theme-architect
 title: Elektronikk og json
 description: Dette er siden som viser json og elektronikk
 # architect
