@@ -7,4 +7,12 @@ Med tiden kan dette bli utvidet om det tjener sin hensikt.
 
 ## Mer informasjon kommer etterhvert.
 
+Lenke til vedlegg:  
+  -> [vedlegg/README.md](vedlegg/README.md)  
+
+Lenke til data:  
+  -> [data/index.html](data/index.html)   
+  -> [data/data01.md](data/data01.md)  
+
+
 -sign
